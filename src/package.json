@@ -1,0 +1,26 @@
+{
+  "name": "sidea",
+  "version": "1.0.0",
+  "description": "Generate index labels for your music collection based on Discogs data",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehonker/sideA.git"
+  },
+  "author": "Edwin Pers <pers.edwin@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/thehonker/sideA/issues"
+  },
+  "homepage": "https://github.com/thehonker/sideA#readme",
+  "dependencies": {
+    "@lionralfs/discogs-client": "^4.1.3",
+    "ee-log": "^3.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^9.26.0"
+  }
+}

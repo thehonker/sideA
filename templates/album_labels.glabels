@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Glabels-document version="4.0">
+  <Template height="288pt" width="162pt" size="other" part="2.25x4" brand="Generic" description="Generic 2.25x4">
+    <Label-rectangle height="288pt" width="162pt" round="0pt" x_waste="0pt" id="0" y_waste="0pt">
+      <Markup-margin size="0pt"/>
+      <Layout dy="288pt" ny="1" x0="0pt" y0="0pt" nx="1" dx="162pt"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="true">
+    <Object-barcode h="45.3543pt" checksum="true" color="0xff" style="qrcode" lock_aspect_ratio="false" a2="0" a0="1" a3="1" a5="0" y="90pt" text="false" data="${url}" w="45.3543pt" a1="0" a4="0" backend="qrencode" x="216pt"/>
+    <Object-text shadow_x="0pt" font_family="Monospace" line_spacing="1" a2="0" font_underline="false" a3="1" h="126pt" valign="top" auto_shrink="false" a4="0" font_italic="false" y="18pt" w="180pt" x="46.8pt" a1="0" wrap="word" shadow_y="0pt" a0="1" align="left" font_weight="normal" shadow="false" font_size="12" lock_aspect_ratio="false" a5="0" shadow_color="0x0" shadow_opacity="1" color="0xff">
+      <p>${artist}</p>
+      <p>${title}</p>
+      <p>${released}</p>
+      <p>${label}</p>
+      <p>${cat}</p>
+    </Object-text>
+    <Object-text shadow_x="0pt" font_family="Sans" line_spacing="1" a2="-1" font_underline="false" a3="6.12323e-17" h="26.9326pt" valign="vcenter" auto_shrink="false" a4="0" font_italic="false" y="9pt" w="144pt" x="36pt" a1="1" wrap="word" shadow_y="0pt" a0="6.12323e-17" align="hcenter" font_weight="normal" shadow="false" font_size="6" lock_aspect_ratio="false" a5="0" shadow_color="0x0" shadow_opacity="1" color="0xff">
+      <p>(${released}) ${artist}</p>
+      <p>${title}</p>
+    </Object-text>
+  </Objects>
+  <Merge type="Text/Comma/Line1Keys" src="data.csv"/>
+  <Data/>
+</Glabels-document>
