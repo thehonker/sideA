@@ -9,3 +9,10 @@ node fetch-release-info.mjs 1828655 | tee data.csv
 ```
 
 Then, open the glabels template and point the variable merge function at the csv.
+
+## autoprint
+
+```bash
+source env.inc
+./autoprint 1828655
+```
